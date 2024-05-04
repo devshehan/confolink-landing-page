@@ -13,10 +13,10 @@ import user4 from "../../src/assets/dp.jpeg";
 import user5 from "../../src/assets/dp.jpeg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Community", href: "#" },
+  { label: "Features", href: "#features" },
+  { label: "Workflow", href: "#workflow" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "Community", href: "#testimonial" },
 ];
 
 export const features = [
@@ -154,7 +154,7 @@ export const testimonials = [
 ];
 
 export const resourecesLinks = [
-  {href: "#", text : "Get Started"},
+  {href: "#hero", text : "Get Started"},
   {href: "#", text : "Community Forums"},
   {href: "#", text : "API References"},
 ];

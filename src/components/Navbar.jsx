@@ -17,7 +17,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Left Part */}
           <div className="flex items-center flex-shrink-0">
-            <span className="text-xl tracking-tighter">ConfoLink</span>
+            <a href="hero">
+              <span className="text-xl tracking-tighter">ConfoLink</span>
+            </a>
           </div>
 
           {/* Middle Part */}

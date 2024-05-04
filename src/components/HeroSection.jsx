@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
-      <div className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+      <div id="hero" className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         Your Standard, Our Excellence: {"  "}
         <span className="bg-gradient-to-r from-blue-300 to-blue-800 text-transparent bg-clip-text">
           Premier Conference Management Solution

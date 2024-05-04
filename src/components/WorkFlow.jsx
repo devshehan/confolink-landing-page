@@ -3,7 +3,7 @@ import { VideoId, checkList } from "../constants";
 
 const WorkFlow = () => {
   return (
-    <div className="mt-20">
+    <div id="workflow" className="mt-20">
       <h2 className="text-3xl text-center sm:text-5xl lg:text-6xl lg:mt-20 tracking-wide">
         Revolutionize Your Conference Workflow: {"  "}
         <span className="bg-gradient-to-r from-blue-300 to-blue-800 text-transparent bg-clip-text">
