@@ -1,5 +1,4 @@
 import { CheckCircle2 } from "lucide-react";
-import workflowImage from "../../src/assets/confoTemp.jpg";
 import { VideoId, checkList } from "../constants";
 
 const WorkFlow = () => {
@@ -15,7 +14,6 @@ const WorkFlow = () => {
       <div className="mt-10 flex flex-wrap justify-center">
         {/* Image Section */}
         <div className="p-12 w-full lg:w-1/2">
-          {/* <img src={workflowImage} alt="tempImage" /> */}
           <iframe
             className="w-full h-full"
             src={`https://www.youtube.com/embed/${VideoId}`}
