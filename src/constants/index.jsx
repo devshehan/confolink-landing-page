@@ -152,3 +152,23 @@ export const testimonials = [
     text: "ConfoLink's conference management software has been a lifesaver for our event planning team. It's intuitive, feature-rich, and offers excellent support. Our clients love the seamless registration process and interactive features. It's made our job much easier!"
   },
 ];
+
+export const resourecesLinks = [
+  {href: "#", text : "Get Started"},
+  {href: "#", text : "Community Forums"},
+  {href: "#", text : "API References"},
+];
+
+export const platformLinks = [
+  {href: "#", text : "Documentation"},
+  {href: "#", text : "Platform Status"},
+  {href: "#", text : "Release Notes"},
+  {href: "#", text : "Developer Tools"}
+];
+
+export const communityLinks = [
+  {href: "#", text : "Blog"},
+  {href: "#", text : "Events"},
+  {href: "#", text : "Success Stories"},
+  {href: "#", text : "Contribute"}
+];
