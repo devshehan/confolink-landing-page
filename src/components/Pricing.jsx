@@ -11,17 +11,18 @@ const Pricing = () => {
         {pricingOptions.map((item, index) => (
           <div key={index} className="p-2 w-full sm:w-1/2 lg:w-1/3 ">
             <div className="p-10 border border-neutral-600 rounded-xl h-full hover:bg-neutral-800 hover:border-neutral-600 transition duration-500">
-              <p className="text-4xl mb-10">
+              <p className="text-4xl mb-10 flex flex-col sm:flex-row">
                 {item.title}
                 {item.title === "Standard" && (
                   <span
                     className="bg-gradient-to-r from-orange-500 to-red-400
-                            text-transparent bg-clip-text text-xl mb-4 ml-2"
+                            text-transparent bg-clip-text text-xl mb-4"
                   >
                     Recommended
                   </span>
                 )}
               </p>
+              
               <p className="mb-8">
                 <span className="text-4xl mt-4 mr-2">{item.price}</span>
                 <span className="text-neutral-500 tracking-tighter">
